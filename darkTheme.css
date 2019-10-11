@@ -272,8 +272,11 @@ a.desktopLink___2dcWC,
     filter: contrast(125%) invert(100%);
 }
 .d .profile-wrapper .profile-status.okay .profile-container,
+.d .profile-wrapper .profile-status.travelling.to.hawaii .profile-container,
 .d .profile-wrapper .profile-status.travelling.from.hawaii .profile-container,
+.d .profile-wrapper .profile-status.travelling.to.china .profile-container,
 .d .profile-wrapper .profile-status.travelling.from.china .profile-container,
+.d .profile-wrapper .profile-status.travelling.to.south-africa .profile-container
 .d .profile-wrapper .profile-status.travelling.from.south-africa .profile-container,
 .d .profile-wrapper .profile-status.abroad.south-africa .profile-container,
 .d .profile-wrapper .profile-status.abroad.hawaii .profile-container,
