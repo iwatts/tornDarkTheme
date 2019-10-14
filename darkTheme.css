@@ -1,9 +1,16 @@
 body.d.regular,
 .doctorn-widget__body.svelte-octyed,
 .doctorn-widget__footer.svelte-octyed,
+.gymContent___3aDhk,
+.properties___Vhhr7 .propertyContent___1hg0- .inputWrapper___1j9Iv .input___2D0YE,
 .d .territory-control-wrp .map-tabs,
 .d .users-list li.gray,
 .footer-menu___24_mz,
+.d .awards-msg,
+.d #medals-tab-menu,
+.d .merits-list li,
+.d .medals-progress .medals-list,
+.d .profile-wrapper .medals-container,
 .d .sortable-list .info-cont-wrap .divider span,
 .d .player-weapon > li.act,
 .d .player-armor > li.act,
@@ -17,10 +24,13 @@ body.d.regular,
 .d .equipped-weapons .player-armor li.act canvas.item-glow,
 .d .equipped-weapons .player-weapon li:hover canvas.item-glow,
 .d .equipped-weapons .player-armor li:hover canvas.item-glow,
-body.d {
+body.d,
+body,
+td {
     background: #0d0d0d;
     color: #ccc;
 }
+.d .m-items-list > li > .title,
 .d .respect .players-list,
 .ToolTipPortal > div {
     background: #0d0d0d !important;
@@ -90,6 +100,9 @@ body.d {
 .d .newspaper-wrap .newspaper-body {
     color: #000;
 }
+.properties___Vhhr7 .propertyContent___1hg0- .description___VLNWe,
+.d .items-wrap.view-2 .actions-main-wrap .amount input[type=text],
+.d .items-wrap.view-2 .actions-main-wrap .price input[type=text],
 .d .stock-main-wrap .tabs-wrap .buy-stock-wrap .column-wrap input[type="text"],
 a.desktopLink___2dcWC,
 .bar-desktop___1z3_C,
@@ -118,6 +131,11 @@ a.desktopLink___2dcWC,
     background: -o-linear-gradient(top, #048f1b 0, #045411 100%);
     background: linear-gradient(180deg, #048f1b, #045411);
 }
+.d .action-log .log-list li.color-2 .message-wrap,
+.d .action-log .log-list li.color-1 .message-wrap {
+    background-color: rgba(13, 13, 13, .75);
+}
+
 .gymList___2NGl7 .heavyweight___1y5gJ .gymButton___3OFdI.selected___2PmTc,
 .gymList___2NGl7 .heavyweight___1y5gJ .gymButton___3OFdI:hover,
 .gymList___2NGl7 .lightweight___8nNY7 .gymButton___3OFdI.selected___2PmTc,
@@ -128,6 +146,10 @@ a.desktopLink___2dcWC,
 .gymList___2NGl7 .specialist___22lni .gymButton___3OFdI:hover {
     background: #000;
 }
+.d .m-items-list > li .m-item-wrap .qty-wrap .item-amount.qty {
+    text-shadow: 0 -2px 1px #000, 0 2px 1px #000, 2px 0 1px #000, -2px 0 1px #000;
+}
+
 .d .armoury-tabs .list-title,
 .d .faction-crimes-wrap .title-white {
     text-shadow: 1px 1px 5px #000;
@@ -174,6 +196,7 @@ a.desktopLink___2dcWC,
 .d .autocomplete-wrap .ac-options > li.active {
     background-color: #004961;
 }
+.properties___Vhhr7 .propertyContent___1hg0- .inputWrapper___1j9Iv .input___2D0YE,
 .d .autocomplete-wrap.open .viewport {
     border: 1px solid #333;
 }
@@ -205,6 +228,7 @@ a.desktopLink___2dcWC,
     color: #fff;
     border: 1px solid #333;
 }
+.notificationWrapper___1qCTW .notification___2zQzG,
 .d .faction-crimes-wrap .title-white,
 .area-desktop___2YU-q .area-row___34mEZ:hover,
 .area-tablet___2d1Dn .area-row___34mEZ:hover,
@@ -272,11 +296,8 @@ a.desktopLink___2dcWC,
     filter: contrast(125%) invert(100%);
 }
 .d .profile-wrapper .profile-status.okay .profile-container,
-.d .profile-wrapper .profile-status.travelling.to.hawaii .profile-container,
 .d .profile-wrapper .profile-status.travelling.from.hawaii .profile-container,
-.d .profile-wrapper .profile-status.travelling.to.china .profile-container,
 .d .profile-wrapper .profile-status.travelling.from.china .profile-container,
-.d .profile-wrapper .profile-status.travelling.to.south-africa .profile-container
 .d .profile-wrapper .profile-status.travelling.from.south-africa .profile-container,
 .d .profile-wrapper .profile-status.abroad.south-africa .profile-container,
 .d .profile-wrapper .profile-status.abroad.hawaii .profile-container,
@@ -289,6 +310,7 @@ a.desktopLink___2dcWC,
 .d .profile-wrapper .profile-status.abroad .profile-container .description {
     filter: contrast(125%) invert(100%);
 }
+.d .bazaar-wrap .bazaar-list-items > li,
 .d .armoury-tabs .item-list > li,
 .d .items-wrap .items-cont > li,
 .d .items-wrap .items-footer,
@@ -393,6 +415,8 @@ a.desktopLink___2dcWC,
 .d .t-blue-cont.h a:hover {
     color: #ccc
 }
+.d .m-items-list .show-item-info,
+.d .m-items-list .buy-item-info-wrap,
 .d .profile-container,
 .d .gym-container .gym-box,
 .d .menu-body,
@@ -404,6 +428,12 @@ a.desktopLink___2dcWC,
 span[data-reactid] {
     color: #888;
 }
+.d .t-gray-6 a,
+.d .t-gray-6 {
+    color: #888;
+}
+.d .profile-wrapper .box-info.rank .box-value li .l-ear,
+.d .profile-wrapper .box-info.age .box-value li .l-ear,
 .d .profile-wrapper .box-info .box-value,
 .d .profile-wrapper .box-info .box-value li .l-ear,
 .d .profile-wrapper .box-info .box-value li .r-ear {
@@ -433,6 +463,19 @@ span[data-reactid] {
 .d .profile-wrapper .box-info.rank .box-value li .r-ear,
 .d .profile-wrapper .box-info.age .box-value li .r-ear {
     background: none
+}
+.d .m-items-list > li {
+    background: none;
+    /*     box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-left: 3px solid #333; */
+}
+.d .items-list .items .name-t,
+.d .items-list .items .item-t,
+.d .items-list .items .cost,
+.d .items-list .items .buy {
+    border-color: #000 #333 #333 #000;
 }
 .d .logged-out .profile-wrapper .profile-status.okay .profile-container:before,
 .d .logged-out .profile-wrapper .profile-status.okay[class*=loot-] .profile-container:before,
@@ -614,6 +657,10 @@ body.d hr.page-head-delimiter {
 .area-tablet___2d1Dn.active___T3p3C .area-row___34mEZ {
     background-color: #000 !important;
 }
+.d .buy-icon,
+.d .bazaar-market-icon,
+.d .view-info-icon,
+[class$=-item-icon]:not(.icon-container-item-icon):not(.link-container-item-icon),
 .d [class*=cql-],
 .d .faction-tabs > li,
 .d .stock-info-icon,
@@ -719,11 +766,19 @@ svg.default___3oPC0,
     background: linear-gradient(to bottom, #000 0, #333 100%);
     border-bottom: 1px solid #333;
 }
+.d .market-tabs > li a:hover,
+.d .market-tabs > li.ui-tabs-active a,
 .d .faction-tabs > li a,
 .amount___2QwFA,
 .d .chart-main-wrap .stock-list .item {
     background: #000;
     text-shadow: 0 1px 0 #000;
+    color: #ccc;
+}
+.d .market-tabs > li a {
+    background: #0d0d0d;
+    text-shadow: 0 1px 0 #000;
+    color: #ccc
 }
 .d .faction-tabs > li.last a .r,
 .d .faction-tabs > li:first-child a .l {
@@ -744,6 +799,8 @@ svg.default___3oPC0,
 .d .armoury-tabs .item-list .item-action .retrieve {
     border-left: none;
 }
+.d .market-tabs,
+.d .m-items-list > li.first,
 .d .items-cont > li,
 .d .items-wrap .action-wrap,
 .d .staff-page .employees-list > li,
@@ -756,6 +813,10 @@ svg.default___3oPC0,
 .d .show-item-info .item-cont .item-wrap {
     border-top: 1px solid #333;
     background-color: #000;
+}
+.d .market-search .cont {
+    border-left: 1px solid #333;
+    background-color: #0d0d0d;
 }
 .d .stock-main-wrap .stock-cont .item,
 .d .stock-main-wrap .stock-cont .item > li,
@@ -787,6 +848,9 @@ svg.default___3oPC0,
 .d .thread-list > li {
     border-top: 1px solid #000;
 }
+.d .m-items-list {
+    border-left: 1px solid #000;
+}
 .d .staff-page .status,
 .d .staff-page .duties,
 .d .staff-page .last-login,
@@ -809,6 +873,7 @@ svg.default___3oPC0,
     border-bottom: 1px solid #333;
     border-top: 1px solid #000;
 }
+.d .log-list .time::after,
 .d .stock-main-wrap .stock-list .stock-tabs > li,
 .d .container-body .date-time::after,
 .d .container-body .mail-action-icon::after {
@@ -957,7 +1022,29 @@ svg.default___3oPC0,
 span.page-nb {
     margin: 0px 12px;
 }
-
+.d .m-items-list > li .m-item-wrap img,
+.d .m-items-list > li .m-item-wrap canvas.item-glow,
+.d .sortable-list .item-armour,
+.d .sortable-list .item-weapon {
+    background: rgb(46, 46, 46);
+    background: -moz-linear-gradient(90deg, rgba(46, 46, 46, 1) 0%, rgba(91, 91, 91, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(46, 46, 46, 1) 0%, rgba(91, 91, 91, 1) 100%);
+    background: linear-gradient(90deg, rgba(46, 46, 46, 1) 0%, rgba(91, 91, 91, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2e2e2e", endColorstr="#5b5b5b", GradientType=1);
+    border-radius: 10px;
+}
+.d .sortable-list .item-armour {
+    height: 30px;
+    width: 70px;
+    padding: 10px 0px;
+    margin: 18px 2px;
+}
+.d .sortable-list .item-weapon {
+    height: 30px;
+    width: 70px;
+    padding: 10px 0px;
+    margin: 18px 12px;
+}
 body.d .checked .container-body,
 .d .staff-page .employees-list > li:hover,
 .d .preferences-container #prefs-tab-menu .headers li,
@@ -985,7 +1072,7 @@ body.d .checked .container-body,
     background: -ms-linear-gradient(top, #33ced1 0%, #0096C7 100%);
     background: linear-gradient(to bottom, #33ced1 0%, #0096C7 100%);
 }
-
+.doctorn-data-table__header.svelte-h7jqlb,
 .d .thread-list .action-wrap > li:hover,
 .d .white-grad-tabs > li:hover,
 .d .white-grad-tabs > li.ui-tabs-active,
@@ -1010,6 +1097,7 @@ body.d .checked .container-body,
     background: -ms-linear-gradient(top, #0096C7 0%, #004961 100%);
     background: linear-gradient(to bottom, #0096C7 0%, #004961 100%);
 }
+.d .action-log .log-list li,
 .d .users-list .bottom-white,
 .d .sortable-list .cont-gray,
 .d .gallery-container.image-info,
@@ -1052,6 +1140,7 @@ svg.default___3oPC0 {
     -webkit-box-shadow: 0 1px 0 rgb(0, 0, 0), inset 0 0 6px rgba(0, 0, 0, 0.12);
     box-shadow: 0 1px 0 rgb(0, 0, 0), inset 0 0 6px rgba(0, 0, 0, 0.12);
 }
+.doctorn-data-table__header.svelte-h7jqlb,
 .d .preferences-container #prefs-tab-menu .headers li,
 .d .forums-committee .threads-list > li {
     border-top: 1px solid #006788;
@@ -1060,6 +1149,11 @@ svg.default___3oPC0 {
 .d #torn-rules-tab-menu .tabs > li.clear {
     border-right: 1px solid #333;
     border-left: 1px solid #000;
+    border-bottom: 1px solid #333;
+}
+.d .market-tabs > li {
+    border-top: 1px solid #000;
+    border-right: 1px solid #333;
     border-bottom: 1px solid #333;
 }
 .d .stock-main-wrap .stock-cont .item .price-wrap,
@@ -1109,6 +1203,10 @@ svg.default___3oPC0 {
 .d .forums-committee .threads-list > li.new .thread-name-wrap .thread-name {
     color: #ccc
 }
+.gymList___2NGl7 .heavyweight___1y5gJ .gymButton___3OFdI.inProgress___1Nd26,
+.gymList___2NGl7 .lightweight___8nNY7 .gymButton___3OFdI.inProgress___1Nd26,
+.gymList___2NGl7 .middleweight___1bIkz .gymButton___3OFdI.inProgress___1Nd26,
+.gymList___2NGl7 .specialist___22lni .gymButton___3OFdI.inProgress___1Nd26,
 .d .staff-page .staff-list-delimeter,
 .d .info-msg .delimiter {
     background: #000;
