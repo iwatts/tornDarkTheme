@@ -35,9 +35,14 @@ td {
 .ToolTipPortal > div {
     background: #0d0d0d !important;
 }
+.d .battle .players-list {
+    background: #0d0d0d url(/images/v2/hall_of_fame/bg_images/bg_battle.png) 356px top no-repeat;
+}
 .ToolTipPortal > div span {
     border-top: 10px solid rgb(13, 13, 13) !important;
 }
+.d .properties-list > li,
+.d .properties-list > li.act,
 .d .stock-main-wrap .tabs-wrap .info-stock-wrap .properties .property span,
 .d .stock-main-wrap .stock-cont .profile-wrap,
 .d .armoury-tabs .item-list > li.item-give-act,
@@ -97,6 +102,9 @@ td {
 .d .player-armor > li {
     border-right: 2px solid #333
 }
+.d .properties-list .image-place img {
+    background: #000 none;
+}
 .d .newspaper-wrap .newspaper-body {
     color: #000;
 }
@@ -110,6 +118,10 @@ a.desktopLink___2dcWC,
 .d .date-time,
 .d .log-list .time {
     color: #ccc;
+}
+.d .properties-list .image-description,
+.d .properties-list > li.act .image-description {
+    opacity: 0.4
 }
 .gymList___2NGl7 .heavyweight___1y5gJ .gymButton___3OFdI.active___Iwizf,
 .gymList___2NGl7 .lightweight___8nNY7 .gymButton___3OFdI.active___Iwizf,
@@ -310,6 +322,8 @@ a.desktopLink___2dcWC,
 .d .profile-wrapper .profile-status.abroad .profile-container .description {
     filter: contrast(125%) invert(100%);
 }
+.d .properties-list > li.act .image-description,
+.d .properties-list .image-description,
 .d .bazaar-wrap .bazaar-list-items > li,
 .d .armoury-tabs .item-list > li,
 .d .items-wrap .items-cont > li,
@@ -511,6 +525,7 @@ span[data-reactid] {
     filter: contrast(50%) invert(100%);
 }
 #forums-page-wrap .button.source,
+.d .properties-tabs .tabs-title a .title,
 .d .territory-control-wrp .map-wrap .tabs-panel-wrp .map-inf,
 .d .territory-control-wrp .map-wrap .block-tabs li > a,
 .ui-tooltip .button.source {
@@ -657,6 +672,8 @@ body.d hr.page-head-delimiter {
 .area-tablet___2d1Dn.active___T3p3C .area-row___34mEZ {
     background-color: #000 !important;
 }
+.d [class^=property-option-],
+.d [class*=" property-option-"],
 .d .buy-icon,
 .d .bazaar-market-icon,
 .d .view-info-icon,
@@ -1097,6 +1114,11 @@ body.d .checked .container-body,
     background: -ms-linear-gradient(top, #0096C7 0%, #004961 100%);
     background: linear-gradient(to bottom, #0096C7 0%, #004961 100%);
 }
+.d .properties-tabs .tabs-title > li {
+    border: 1px solid #0096C7;
+    border-right-color: #004961;
+}
+.d .properties-list .image-place,
 .d .action-log .log-list li,
 .d .users-list .bottom-white,
 .d .sortable-list .cont-gray,
