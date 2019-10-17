@@ -36,7 +36,7 @@ td {
     background: #0d0d0d !important;
 }
 .d .battle .players-list {
-    background: #0d0d0d url(/images/v2/hall_of_fame/bg_images/bg_battle.png) 356px top no-repeat;
+    background: #0d0d0d url(https://www.torn.com/images/v2/hall_of_fame/bg_images/bg_battle.png) 356px top no-repeat;
 }
 .ToolTipPortal > div span {
     border-top: 10px solid rgb(13, 13, 13) !important;
@@ -236,7 +236,7 @@ a.desktopLink___2dcWC,
     background-color: #1D1328;
 }
 .d .ac-search.ui-autocomplete-input {
-    background: url(/images/v2/main/icons/user_ID_search_active.png) #000 97% 6px no-repeat;
+    background: url(https://www.torn.com/images/v2/main/icons/user_ID_search_active.png) #000 97% 6px no-repeat;
     color: #fff;
     border: 1px solid #333;
 }
@@ -254,7 +254,6 @@ a.desktopLink___2dcWC,
     background: -o-linear-gradient(top, #000 0%, #141414 100%);
     background: -ms-linear-gradient(top, #000 0%, #141414 100%);
     background: linear-gradient(to bottom, #000 0%, #141414 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='##000', endColorstr='#141414', GradientType=0);
 }
 .d .items-wrap .category-wrap ul > li.bg-green,
 .d .forums-main-wrap .panel-scrollbar,
@@ -629,7 +628,6 @@ span[data-reactid] {
     background: -o-linear-gradient(top, #006788 0%, #004961 100%);
     background: -ms-linear-gradient(top, #006788 0%, #004961 100%);
     background: linear-gradient(to bottom, #006788 0%, #004961 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0096C7', endColorstr='#004961', GradientType=0);
 }
 .d #torn-rules-tab-menu .tabs > li a {
     color: #000;
@@ -657,7 +655,7 @@ body.d hr.page-head-delimiter {
     margin: 0px -12px;
 }
 .d .estate-agents-purchase .cont-gray {
-    background: #141414 url(/images/v2/properties/estateagent/g_estate_agents_purchase.png) right top no-repeat;
+    background: #141414 url(https://www.torn.com/images/v2/properties/estateagent/g_estate_agents_purchase.png) right top no-repeat;
 }
 .d .forums-main-wrap .forum-wrap .forum-list > li:hover,
 .d .forums-main-wrap .dashboard .panel > li:hover {
@@ -1047,7 +1045,6 @@ span.page-nb {
     background: -moz-linear-gradient(90deg, rgba(46, 46, 46, 1) 0%, rgba(91, 91, 91, 1) 100%);
     background: -webkit-linear-gradient(90deg, rgba(46, 46, 46, 1) 0%, rgba(91, 91, 91, 1) 100%);
     background: linear-gradient(90deg, rgba(46, 46, 46, 1) 0%, rgba(91, 91, 91, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2e2e2e", endColorstr="#5b5b5b", GradientType=1);
     border-radius: 10px;
 }
 .d .sortable-list .item-armour {
@@ -1077,7 +1074,6 @@ body.d .checked .container-body,
     background: -o-linear-gradient(top, #006788 0%, #004961 100%);
     background: -ms-linear-gradient(top, #006788 0%, #004961 100%);
     background: linear-gradient(to bottom, #006788 0%, #004961 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0096C7', endColorstr='#004961', GradientType=0);
     border-radius: 5px
 }
 .d .preferences-container #prefs-tab-menu .headers li.ui-state-active {
@@ -1214,7 +1210,6 @@ svg.default___3oPC0 {
     background: -o-linear-gradient(top, #006788 0%, #004961 100%);
     background: -ms-linear-gradient(top, #006788 0%, #004961 100%);
     background: linear-gradient(to bottom, #006788 0%, #004961 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0096C7', endColorstr='#004961', GradientType=0);
 }
 .d .forums-thread-wrap .thread-list .new-post .post-wrap {
     background-color: #141441;
@@ -1238,7 +1233,6 @@ svg.default___3oPC0 {
     background: -o-linear-gradient(top, #000 0%, #141414 100%);
     background: -ms-linear-gradient(top, #000 0%, #141414 100%);
     background: linear-gradient(to bottom, #000 0%, #141414 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000', endColorstr='#141414', GradientType=0);
 }
 .d .chart-main-wrap .stock-list .item .acc-body,
 .d .travel-agency-market .users-list > li {
@@ -1253,7 +1247,6 @@ svg.default___3oPC0 {
     background: -o-linear-gradient(top, #006788 0%, #004961 100%);
     background: -ms-linear-gradient(top, #006788 0%, #004961 100%);
     background: linear-gradient(to bottom, #006788 0%, #004961 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0096C7', endColorstr='#004961', GradientType=0);
 }
 .d .forums-main-wrap .dashboard .panel > li,
 .d .stock-main-wrap .stock-cont .item .price-wrap .first-row,
